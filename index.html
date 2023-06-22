@@ -538,71 +538,72 @@
 	</div>
 	<section class="popup_hidden">
 		<div class="modal-window" id="modal">
-			<div class="modal-window-body">
-				<button class="modal-window-close">
-					<svg class="modal-X-button-icon">
-						<use xlink:href="#X-button"></use>
-					</svg>
-					<span class="modal-screenreader-only">Закрыть</span>
-				</button>
-				<h2 class="underlined-title modal-window-title">
-					ваш фидбек
-				</h2>
-				<form action="#">
-					<label for="modal-select-frequency">
-						<span class="modal-form-question-text"> 
-							Как часто вы заходите на сайт?
-						</span>
-					</label>
-					<select
-                            class="modal-select-frequency field-input"
-                            name="user-answer-select-frequency"
-                            id="modal-select-frequency">
-                            <option value="1">Почти каждый день</option>
-                            <option value="2">Раз в несколько дней</option>
-                            <option value="3">Раз в несколько недель</option>
-                            <option value="4">Несколько раз в год</option>
-                    </select>
-					<p class="modal-form-question-text">
-						Вы подписаны на e-mail рассылку?
-					</p>
-					<div class="modal-radio-wrapper">
-						<input class="modal-radio-button hidden-clipped"
-							type="radio"
-							value="yes"
-							name="modal-radio"
-							id="modal-radio-yes"
-							checked>
-						<label class="modal-radio-label" for="modal-radio-yes">
-							Да
-						</label>
-						<input class="modal-radio-button hidden-clipped" 
-							type="radio"
-							value="no"
-							name="modal-radio"
-							id="modal-radio-no">
-						<label
-							class="modal-radio-label"
-							for="modal-radio-no">
-							Нет
-						</label>
-					</div>
-					<p class="modal-form-question-text">
-						Расскажите, какой контент вы хотели бы видеть на
-						нашем сайте?
-					</p>
-					<textarea class="modal-textarea field-input" 
-							name="modal-textarea"
-                            id="modal-textarea"
-                            placeholder="Может, больше рецептов?">
-					</textarea>
-					<button class="modal-submit-button" type="submit">
-						<span class="modal-submit-button-text">
-							отправить
-						</span>
+			<div class="modal-window-backdrop"></div>
+				<div class="modal-window-body">
+					<button class="modal-window-close">
+						<svg class="modal-X-button-icon">
+							<use xlink:href="#X-button"></use>
+						</svg>
+						<span class="modal-screenreader-only">Закрыть</span>
 					</button>
-				</form>
-			</div>
+					<h2 class="underlined-title modal-window-title">
+						ваш фидбек
+					</h2>
+					<form action="#">
+						<label for="modal-select-frequency">
+							<span class="modal-form-question-text"> 
+								Как часто вы заходите на сайт?
+							</span>
+						</label>
+						<select
+								class="modal-select-frequency field-input"
+								name="user-answer-select-frequency"
+								id="modal-select-frequency">
+								<option value="1">Почти каждый день</option>
+								<option value="2">Раз в несколько дней</option>
+								<option value="3">Раз в несколько недель</option>
+								<option value="4">Несколько раз в год</option>
+						</select>
+						<p class="modal-form-question-text">
+							Вы подписаны на e-mail рассылку?
+						</p>
+						<div class="modal-radio-wrapper">
+							<input class="modal-radio-button hidden-clipped"
+								type="radio"
+								value="yes"
+								name="modal-radio"
+								id="modal-radio-yes"
+								checked>
+							<label class="modal-radio-label" for="modal-radio-yes">
+								Да
+							</label>
+							<input class="modal-radio-button hidden-clipped" 
+								type="radio"
+								value="no"
+								name="modal-radio"
+								id="modal-radio-no">
+							<label
+								class="modal-radio-label"
+								for="modal-radio-no">
+								Нет
+							</label>
+						</div>
+						<p class="modal-form-question-text">
+							Расскажите, какой контент вы хотели бы видеть на
+							нашем сайте?
+						</p>
+						<textarea class="modal-textarea field-input" 
+								name="modal-textarea"
+								id="modal-textarea"
+								placeholder="Может, больше рецептов?">
+						</textarea>
+						<button class="modal-submit-button" type="submit">
+							<span class="modal-submit-button-text">
+								отправить
+							</span>
+						</button>
+					</form>
+				</div>
 		</div>
 	</section>
 </body>
